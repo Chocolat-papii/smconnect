@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,31 +21,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript"
-        src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/e6d1f98a15.js" crossorigin="anonymous"></script>
     <script type="speculationrules">
         {
             "prerender": [
             {
-                "urls": ["/", "/about.html", "/services.html", "/contact.html"]
+                "urls": ["/", "/about.html", "/services.html", "/contact.html", "/portfolio.html"]
             }
             ]
         }
     </script>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4J431PKJWB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4J431PKJWB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-4J431PKJWB');
-</script>
-    
+        gtag('config', 'G-4J431PKJWB');
+    </script>
+
 
 
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-black  navbar-dark py-2 fixed-top">
         <div class="container">
@@ -61,11 +62,15 @@
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
                         <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link active">Contact</a>
@@ -78,7 +83,8 @@
         <div class="container py-5">
             <h1>Get in Touch</h1>
             <p class="lead">Let's Build Your Online Presence — Hassle-Free!</p>
-            <p>Have questions? Need a website? We’re here to help! Contact us today and let’s bring your business online with a fast, secure, and affordable website solution.</p>
+            <p>Have questions? Need a website? We’re here to help! Contact us today and let’s bring your business online
+                with a fast, secure, and affordable website solution.</p>
         </div>
     </section>
     <section class="p-1 py-4 bg-black text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
@@ -88,28 +94,30 @@
                     <h2 class="text-center pb-3">Contact Info</h2>
                     <ul class="list-group list-group-flush lead">
                         <li class="list-group-item bg-black text-light">
-                            <span class="fw-bold"><i class="fas fa-map-marker"></i> Location:</span><br> Midrand, JHB, RSA.
+                            <span class="fw-bold"><i class="fas fa-map-marker"></i> Location:</span><br> Midrand, JHB,
+                            RSA.
                         </li>
                         <li class="list-group-item bg-black text-light">
                             <span class="fw-bold"><i class="fas fa-phone"></i> Call/Whatsapp:</span><br> 07888 28262
                         </li>
                         <li class="list-group-item bg-black text-light">
-                            <span class="fw-bold"><i class="fas fa-at"></i> E-mail:</span><br> <span class="mail"> Sibusisomsimango24@outlook.com</span>
+                            <span class="fw-bold"><i class="fas fa-at"></i> E-mail:</span><br> <span class="mail">
+                                Sibusisomsimango24@outlook.com</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md">
                     <div class="col-md ">
                         <h2 class="text-center pb-3">Book a Free Consultation</h2>
-                        <div >
+                        <div>
                             <p class="lead">
-                            Want to discuss your website needs? Schedule a consulatation video call with
-                             us and let’s find the best solution for you.
+                                Want to discuss your website needs? Schedule a consulatation video call with
+                                us and let’s find the best solution for you.
                             </p>
                             <div>
                                 <a class="btn btn-x" href="https://calendly.com/smsimango81/30min">
                                     Book Now
-                                </a>    
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -119,39 +127,40 @@
     </section>
     <section class="py-5" id="getstarted">
         <div class="container ">
-                <div class="text-center table-width1 mx-auto">
-                    <h2>Contact Form</h2>
-                    <p>Fill in the form below, and we’ll get back to you within <em>24 hours.</em></p>
-                    <form name="contact" NETLIFY method="POST" data-netlify="true" action="/thank-you">
-                        <input type="hidden" name="form-name" value="contact" required>
-                        <div class="row">
+            <div class="text-center table-width1 mx-auto">
+                <h2>Contact Form</h2>
+                <p>Fill in the form below, and we’ll get back to you within <em>24 hours.</em></p>
+                <form name="contact" NETLIFY method="POST" data-netlify="true" action="/thank-you">
+                    <input type="hidden" name="form-name" value="contact" required>
+                    <div class="row">
                         <div class="form-floating mb-3 col-6">
                             <input type="text" class="form-control" id="floatingInput" placeholder="John" required>
                             <label for="floatingInput">Name:</label>
-                          </div>
+                        </div>
                         <div class="form-floating mb-3 col-6">
                             <input type="email" class="form-control" id="floatingInput" placeholder="JohnD@example.com">
                             <label for="floatingInput">Email Address:</label>
-                          </div>
                         </div>
+                    </div>
 
-                        <div class="row">
+                    <div class="row">
                         <div class="form-floating mb-3 col-6">
                             <input type="tel" class="form-control" id="floatingInput" placeholder="+27 123456789">
                             <label for="floatingInput">Phone:</label>
-                          </div>
+                        </div>
                         <div class="form-floating mb-3 col-6">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Law">
                             <label for="floatingInput">Industry:</label>
-                          </div>
                         </div>
-                        
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                            <label for="floatingTextarea">Message:</label>
-                          </div>
-                        <button type="submit" class="btn btn-x text-light">Submit</button>
-                    </form>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Message:</label>
+                    </div>
+                    <button type="submit" class="btn btn-x text-light">Submit</button>
+                </form>
             </div>
         </div>
     </section>
@@ -159,30 +168,33 @@
         <div class="container text-center py-5">
             <h1>Get Started Today!</h1>
             <p>Your website is your digital storefront – let’s make sure it works for you!</p>
-            <div >
+            <div>
                 <div class="d-inline">
-                    <a href="https://calendly.com/smsimango81/30min" class="btn btn-x h1" target="_blank"> <i class="bi bi-card-text"></i> Book Now</a>
+                    <a href="https://calendly.com/smsimango81/30min" class="btn btn-x h1" target="_blank"> <i
+                            class="bi bi-card-text"></i> Book Now</a>
                 </div>
                 <div class="d-inline">
-                    <a href="https://www.facebook.com/profile.php?id=61569417816213" class="btn btn-x h1" target="_blank"> <i class="bi bi-facebook"></i> Facebook</a>
+                    <a href="https://www.facebook.com/profile.php?id=61569417816213" class="btn btn-x h1"
+                        target="_blank"> <i class="bi bi-facebook"></i> Facebook</a>
                 </div>
                 <!--<div class="d-inline">
                     <a href="" class="btn btn-x h1" target="_blank"> <i class="bi bi-instagram"></i> Instagram</a>
                 </div >-->
                 <div class="d-inline">
-                    <a href="https://wa.me/2788828262" class="btn btn-x h1" target="_blank"> <i class="bi bi-whatsapp"></i> Whatsapp</a>
+                    <a href="https://wa.me/2788828262" class="btn btn-x h1" target="_blank"> <i
+                            class="bi bi-whatsapp"></i> Whatsapp</a>
                 </div>
             </div>
         </div>
     </section>
-    
 
-<footer class="p-1 bg-black  text-light text-center position-relative">
+
+    <footer class="p-1 bg-black  text-light text-center position-relative">
         <div class="container">
             <p> &copy;
                 <script>document.write(new Date().getFullYear());</script>
-               SMConnect. All rights reserved.<br>
-               <!--<a href="">Privacy Policy</a> | <a href="">Terms of Use</a>-->
+                SMConnect. All rights reserved.<br>
+                <!--<a href="">Privacy Policy</a> | <a href="">Terms of Use</a>-->
             </p>
             <a href="#" class="position-absolute bottom-0 end-0 pb-5 px-2">
                 <i class="bi bi-arrow-up-circle h1"></i>
