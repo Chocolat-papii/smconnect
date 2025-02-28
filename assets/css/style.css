@@ -117,3 +117,40 @@ footer a {
 .width1 {
     width: 100%;
 }
+
+.blue-tier {
+    background: linear-gradient(to bottom, #409bfc 80%, #fcfcfc);
+    border: none;
+}
+
+.gold-tier {
+    background: linear-gradient(to bottom, #f5d838 80%, #fcfcfc);
+    border: none;
+}
+
+.green-tier {
+    background: linear-gradient(to bottom, #35e65e 80%, #fcfcfc);
+    border: none;
+}
+
+.purple-tier {
+    background: linear-gradient(to bottom, #a960fc 80%, #fcfcfc);
+    border: none;
+}
+
+.blue {
+    color: #409bfc;
+}
+.gold {
+    color: #f5d838;
+}
+.green {
+    color: #35e65e;
+}
+.purple {
+    color: #a960fc;
+}
+
+.legal-l {
+    text-decoration: none;
+}
