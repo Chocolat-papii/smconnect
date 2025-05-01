@@ -4,7 +4,7 @@ body {
   font-weight: 600;
   font-style: normal;
   background-color: #FAFAFA;
-}
+  margin-top: 32px;}
 
 
 @media(min-width: 768px) {
