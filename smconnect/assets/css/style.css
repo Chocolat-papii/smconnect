@@ -1,0 +1,156 @@
+body {
+    font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #FAFAFA;
+  margin-top: 32px;}
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+
+    }
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+.table-width1 {
+    
+    max-width: 800px;
+}
+
+.table-width2 {
+    width: 1400px;
+    
+}
+
+
+.img-height {
+    height: 50dvh;
+}
+
+/* Button Styling */
+.btn-x {
+    background: linear-gradient(270deg, #99e0fe, #63c0fa, #469ff8, #8fd8f7);
+    background-size: 400% 400%;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    animation: gradientShift 6s ease infinite;
+}
+
+/* Button Hover Effect */
+.btn-x:hover {
+    background: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 12px  #63c0fa;
+}
+
+/* Keyframes for animated gradient background */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.cardbg {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.cardbg2 {
+    background-color: #000000;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+
+.as-body {
+    background-color: #fafafa;
+    border: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #469ff8;
+}
+
+.table-width2 {
+    max-width: 350px;
+}
+
+@media (max-width:600px) {
+    .mail {
+        font-size: 14px;
+    }
+
+}
+
+.price {
+    color: #469ff8;
+}
+
+#floatingInput {
+    margin-left: -10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo2 {
+    height: 80px;
+}
+
+.width1 {
+    width: 100%;
+}
+
+.blue-tier {
+    background: linear-gradient(to bottom, #409bfc 80%, #fcfcfc);
+    border: none;
+}
+
+.gold-tier {
+    background: linear-gradient(to bottom, #f5d838 80%, #fcfcfc);
+    border: none;
+}
+
+.green-tier {
+    background: linear-gradient(to bottom, #35e65e 80%, #fcfcfc);
+    border: none;
+}
+
+.purple-tier {
+    background: linear-gradient(to bottom, #a960fc 80%, #fcfcfc);
+    border: none;
+}
+
+.blue {
+    color: #409bfc;
+}
+.gold {
+    color: #f5d838;
+}
+.green {
+    color: #35e65e;
+}
+.purple {
+    color: #a960fc;
+}
+
+.legal-l {
+    text-decoration: none;
+}
