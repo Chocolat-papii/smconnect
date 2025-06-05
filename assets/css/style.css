@@ -93,9 +93,20 @@ footer a {
 
 @media (max-width:600px) {
     .mail {
-        font-size: 14px;
+        font-size: 18px;
     }
 
+    .mail a {
+        text-decoration: none;
+        color: #99e0fe;
+        font-size: 18px;
+    }
+
+}
+
+.werty {
+    text-decoration: none;
+        color: #99e0fe;
 }
 
 .price {
@@ -153,4 +164,25 @@ footer a {
 
 .legal-l {
     text-decoration: none;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: none;           /* hidden by default */
+  background-color: #eeeeee;/* blue background (adjust to your brand) */
+  color: #000000;             /* arrow color */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#backToTop:hover {
+  opacity: 0.8;
 }
