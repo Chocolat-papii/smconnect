@@ -71,6 +71,10 @@ body {
     border-radius: 12px;
 }
 
+.border-radius-12px {
+    border-radius: 12px;
+}
+
 .cardbg2 {
     background-color: #000000;
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.05);
@@ -185,4 +189,46 @@ footer a {
 }
 #backToTop:hover {
   opacity: 0.8;
+}
+
+.hero-pic {
+    background-image: url('../media/night-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-pic::after {
+  content: "";
+  position: absolute;        /* z-index works only on positioned elements */
+  inset: 0;                  /* top:0; right:0; bottom:0; left:0 */
+  background: #00000079;     /* overlay */
+  z-index: 0;
+}
+
+.top-20 {
+    top: 30%;
+    left: 5%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+
+.blob::after {
+    content: "";
+    position: absolute;        /* z-index works only on positioned elements */
+    inset: 0;                  /* top:0; right:0; bottom:0; left:0 */
+    background: #63C0FA;
+    background: radial-gradient(ellipse farthest-corner at center center, #63C0FA 31%, #FFFFFF 77%);
+    z-index: -1;
 }
