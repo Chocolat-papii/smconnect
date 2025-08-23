@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://smconnect.co.za/sitemap.xml
