@@ -32,7 +32,17 @@ body {
 
 
 .img-height {
-    height: 50dvh;
+    height: 380px;
+}
+
+.img-height-testi {
+    height: 300px;
+}
+
+@media screen and (min-width: 787px) {
+    .img-height-testi {
+        height: 240px;
+    }
 }
 
 /* Button Styling */
@@ -200,6 +210,8 @@ footer a {
     height: 80vh;
     width: 100%;
     position: relative;
+      background-attachment: fixed; /* This makes the magic */
+    overflow: hidden; /* Prevent weird scroll bugs */
 }
 
 .hero-pic::after {
