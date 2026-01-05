@@ -36,12 +36,12 @@ body {
 }
 
 .img-height-testi {
-    height: 300px;
+    height: 355px;
 }
 
 @media screen and (min-width: 787px) {
     .img-height-testi {
-        height: 260px;
+        height: 250px;
     }
 }
 
