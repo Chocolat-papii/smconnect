@@ -25,6 +25,14 @@
     <priority>0.8</priority>
   </url>
 
+<!-- legal -->
+  <url>
+    <loc>https://smconnect.co.za/legal</loc>
+    <lastmod>2025-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- About Us -->
   <url>
     <loc>https://smconnect.co.za/about</loc>
@@ -42,11 +50,11 @@
   </url>
 
   <!-- Blog -->
-  <url>
+  <!-- <url>
     <loc>https://smconnect.co.za/blog</loc>
     <lastmod>2025-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
+  </url> -->
 
 </urlset>
